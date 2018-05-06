@@ -1,0 +1,2 @@
+class Ho < ApplicationRecord
+end

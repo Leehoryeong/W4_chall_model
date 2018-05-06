@@ -4,10 +4,11 @@ class IndiansController < ApplicationController
 	end
 
 	def viva
-      c = rand(1..8)
-      k = Indian.find(c).a
-      d = Indian.find(c).b
-      a = Indian.find(c).c            
+       
+      
+      k = Lee.find(rand(1..8)).element
+      d = Ho.find(rand(1..8)).element
+      a = Ryeong.find(rand(1..8)).element            
       number = rand(1..8)
       @image = 'indian' + number.to_s
       @K=k

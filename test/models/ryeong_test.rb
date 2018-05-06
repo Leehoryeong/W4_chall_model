@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class IndianTest < ActiveSupport::TestCase
+class RyeongTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

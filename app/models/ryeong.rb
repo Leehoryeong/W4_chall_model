@@ -1,0 +1,2 @@
+class Ryeong < ApplicationRecord
+end

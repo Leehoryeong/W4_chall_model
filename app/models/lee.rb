@@ -1,0 +1,2 @@
+class Lee < ApplicationRecord
+end
